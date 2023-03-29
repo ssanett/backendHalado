@@ -1,0 +1,12 @@
+POST http://localhost:8080/api/movies
+Content-Type: application/json
+
+{"title":"Jurassic world",
+  "length" : 231
+}
+
+###
+GET http://localhost:8080/api/movies
+Accept: application/json
+
+###
